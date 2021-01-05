@@ -1,0 +1,142 @@
+body {
+  min-width: 300px;
+}
+
+.classHeightFullVH {
+  height: 100vh;
+}
+
+.classBannerSection {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.classLoginSection {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+
+.classImgBanner {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/banner.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(60%);
+}
+
+.classImgLogo {
+  position: absolute;
+  max-height: 11%;
+}
+
+.classHorizontalPadding {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.classVerticalPadding {
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.classInputPadding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.classInputMinWidth {
+  min-width: 240px;
+}
+
+.classCheckboxSection {
+  display: flex;
+  align-items: center;
+}
+
+.classNoVerticalMarginPadding {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.classCheckboxLabel {
+  padding-left: 5px;
+  padding-right: 0px;
+  margin-bottom: 0;
+}
+
+.classTextRight {
+  width: 100%;
+  text-align: right;
+}
+
+.classTextBlack {
+  text-decoration: none;
+  color: black;
+}
+
+.classDarkBtn {
+  background-color: black;
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.classDarkBtn:hover {
+  background-color: #343a40;
+}
+
+.smallFont {
+  font-size: 10pt;
+}
+
+/* bootstrap col-xl- */
+@media (max-width: 1200px)  {
+
+  .classBannerSection {
+    height: 20%;
+  }
+
+  .classLoginSection {
+    height: 80%;
+  }
+
+  .classHorizontalPadding {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .classImgLogo {
+    max-height: 50%;
+  }
+
+}
+
+/* bootstrap col-md- */
+@media (max-width: 768px)  {
+
+  .classHeaderText {
+    font-size: 20pt;
+  }
+
+  .classHorizontalPadding {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+}
