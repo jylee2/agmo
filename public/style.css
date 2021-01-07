@@ -49,9 +49,10 @@ body {
   padding-right: 15%;
 }
 
+/* Use fixed vertical padding between the elements so they do not change with the screen width */
 .classVerticalPadding {
-  padding-top: 7%;
-  padding-bottom: 7%;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .classInputPadding {
